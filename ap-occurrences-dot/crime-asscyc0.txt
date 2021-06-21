@@ -1,0 +1,13 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N4" -> "N2" [uuid = "<Relator0, Relator2>", color = "#e41a1c", fontcolor = "#e41a1c", style = "solid", label = "mediates", dir = "forward", weight = "1"]
+"N2" -> "N0" [uuid = "<Relator2, Person2>", color = "#a65628", fontcolor = "#a65628", style = "solid", label = "mediates", dir = "forward", weight = "1"]
+"N4" -> "N1" [uuid = "<Relator0, Person1>", color = "#ff7f00", fontcolor = "#ff7f00", style = "solid", label = "mediates", dir = "forward", weight = "1"]
+"N0" [uuid="Person2", label="Person2\n(this/Object, this/0Person, this/1Witness)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+"N1" [uuid="Person1", label="Person1\n(this/Object, this/0Person, this/1Witness)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+"N2" [uuid="Relator2", label="Relator1\n(this/Relator, this/0CriminalInvestigation)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+"N4" [uuid="Relator0", label="Relator0\n(this/Relator, this/0Interrogation)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+}

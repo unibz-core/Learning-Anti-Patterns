@@ -1,0 +1,9 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N1" -> "N0" [uuid = "<Relator1, Person2>", style = "solid", label = "IsLedBy", dir = "forward", weight = "1"]
+"N0" [label="N0\n(this/Object, this/0Detective, this/1JuniorDetective, this/1LeadDetective)", shape="box", style="filled, solid"]
+"N1" [label="N1\n(this/Relator, this/0CriminalInvestigation)", shape="box", style="filled, solid"]
+}

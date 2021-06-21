@@ -1,0 +1,7 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N0" [uuid="TOP6", label="TOP6\n(this/1Airplane, this/1Boat, this/1Car, this/0Vehicle, this/Object)", color="#de7194", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+}

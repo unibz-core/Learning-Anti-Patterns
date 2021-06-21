@@ -1,0 +1,10 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N1" -> "N0" [uuid = "<Relator1, Person0>", color = "#e41a1c", fontcolor = "#e41a1c", style = "solid", label = "mediates", dir = "forward", weight = "1"]
+"N1" -> "N0" [uuid = "<Relator1, Person0>", color = "#a65628", fontcolor = "#a65628", style = "solid", label = "mediates", dir = "forward", weight = "1"]
+"N0" [uuid="Person0", label="Person0\n(this/Object, this/0Person, this/1SeniorDetective, this/1Witness)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+"N1" [uuid="Relator1", label="Relator1\n(this/Relator, this/0CriminalInvestigation)", color="#ffd700", fontcolor = "#000000", shape = "box", style = "filled, solid"]
+}

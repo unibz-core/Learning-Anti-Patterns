@@ -1,0 +1,10 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N1" -> "N0" [style = "solid", label = "InvolvesBuyer", dir = "forward", weight = "1"]
+"N1" -> "N0" [style = "solid", label = "InvolvesSeller", dir = "forward", weight = "1"]
+"N0" [label="N0\n(this/Object, this/1Buyer, this/0Person, this/1Seller)", shape="box", style="filled, solid"]
+"N1" [label="N1\n(this/Relator, this/0Purchase)", shape="box", style="filled, solid"]
+}

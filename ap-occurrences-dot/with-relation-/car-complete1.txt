@@ -1,0 +1,9 @@
+digraph "graph" {
+graph [fontsize=12]
+node [fontsize=12]
+edge [fontsize=12]
+rankdir=TB;
+"N0" [label="N0\n(this/0Vehicle, this/Object)", shape="box", style="filled, solid"]
+"N1" [label="N1\n(this/1Car, this/0Vehicle, this/Object)", shape="box", style="filled, solid"]
+"N2" [label="N2\n(this/1Boat, this/0Vehicle, this/Object)", shape="box", style="filled, solid"]
+}
