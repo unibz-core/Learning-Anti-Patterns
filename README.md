@@ -25,6 +25,6 @@ Copy any generated anti-pattern occurrence `.DOT` into a `.txt` file (see exampl
 
 2. Use all the outputs of 1. to generate an example set like `examples.xlsx`.
 
-3. Give `examples.xlsx` as input of `embedding+clustering.xml` in [scritpts](https://github.com/unibz-core/Learning-Anti-Patterns/tree/main/scripts) - this is necessary to embed, bootstrap, evaluate, cluster and extract the clusters prototypes as described in the paper.
+3. Give `examples.xlsx` as input of RapidMiner `embedding+clustering.xml` process in [scritpts](https://github.com/unibz-core/Learning-Anti-Patterns/tree/main/scripts) - this is necessary to embed, bootstrap, evaluate, cluster and extract the clusters prototypes as described in the paper.
 
 4. To generate the generalized anti-pattern give the output of 1. to `generate-dot.py` and then to `visualize-graph.py`.
