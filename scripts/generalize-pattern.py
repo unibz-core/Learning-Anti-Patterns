@@ -12,7 +12,7 @@ import re
 from collections import defaultdict
 
 #here the input must be a .dot->.txt file
-a_file = open("/Users/mattiafumagalli/Desktop/CEUR-mining-anti-patterns-accross-domains/dot/car-binover-proc.txt", "r")
+a_file = open("car-binover-proc.txt", "r")
 clean = [re.sub(r' ', '', i) for i in a_file]
 list_of_lists = []
 for line in clean:
